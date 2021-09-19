@@ -1,0 +1,40 @@
+{
+  "name": "news-letter-app",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "bull": "^3.29.2",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "csv-parser": "^3.0.0",
+    "formidable": "^1.2.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.2.0",
+    "loopback-connector-mongodb": "^6.1.0",
+    "loopback-connector-redis": "^3.0.0",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.6.3",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "news-letter-app"
+}

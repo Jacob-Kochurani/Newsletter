@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "news-letter": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "news-letter-feedback",
+    "password": "",
+    "name": "news-letter",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "name": "redis",
+    "connector": "redis"
+  }
+}
